@@ -1,0 +1,249 @@
+body {
+    font-size: 15pt;
+    background-image: url(/my_img/images5.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#logo{
+    margin-left: 25px;
+    margin-top: -100px;
+    border-radius: 50%;
+    border: 7px solid white;
+    
+}
+#frant_img{
+    height: 500px;
+    width: 100%;
+}
+#logo1{
+    margin-right: 500px;
+    margin-top: -10px;
+    border-radius: 50%;
+    border: 7px solid white;
+
+}
+#para1{
+    color: lightpink;
+}
+#a_img{
+    margin-top: 100px;
+    height: 400px;
+}
+.s1{
+    box-shadow: 0px 0px 30px 10px black;
+    margin: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 4px solid white;
+    height: 200px;
+}
+.s2 {
+    box-shadow: 0px 0px 50px 10px red;
+    margin: 40px;
+    margin-top: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 2px groove silver;
+    height: 150px;
+}
+.all_txt{
+    text-shadow: 0px 5px 10px white;
+   font-size: 40px;
+   color: red;
+   background-color: pink;
+}
+.all_txt1 {
+    text-shadow: 0px 5px 10px black;
+    color: white;
+    font-size: 40px;
+}
+#my_team_img{
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#sawant_img{
+    border-radius: 50%;
+    margin-top: 90px;
+    
+    border: 3px solid white;
+}
+#sawant_info{
+    margin-top: 220px;
+    
+}
+.parr1{
+    width: 42%; 
+    text-align: center;
+    background-color: orange;
+    margin: 27px;
+    padding: 10px;
+}
+#my_team_img1{
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0px 0px 10px orange;
+}
+#sawant_img1{
+    border-radius: 50%;
+    margin-top: 90px;
+    
+    border: 3px solid white;
+}
+#sawant_info1{
+    margin-top: 220px;
+
+}
+.parr2{
+    width: 90%; 
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 40px;
+   box-shadow: 0px 0px 30px orange;
+}
+.color_img img{
+    animation-name: image_c;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes image_c{
+    0%{transform: scaleX(1); }
+    40%{transform: scaleX(1);}
+    50%{transform: scaleX(-1);}
+    90%{transform: scaleX(-1);}
+    100%{transform: scaleX(1);}
+}
+/*.logo_img img{
+    animation-name: logo_img;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes logo_img{
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(72deg);}
+    40%{transform: rotate(144deg);}
+    60%{transform: rotate(216deg);}
+    80%{transform: rotate(288deg);}
+    100%{transform: rotate(360deg);}
+}*/
+.mahesh_img img {
+    animation-name: mahesh_img;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes mahesh_img{
+    0%{transform: scalex(1);}
+    40%{transform: scalex(1);}
+    50%{transform: scalex(-1);}
+    90%{transform: scalex(-1);}
+    100%{transform: scalex(1);}
+}
+/*.logo_mobile{
+    width: 100%;
+    
+    animation-name: logo_mob1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#logo_bacg{
+    height: 2px;
+    width: 100%;
+    
+    border-radius: 50%;
+    animation-name: logo_mob;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes logo_mob1{
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(72deg);}
+    40%{transform: rotate(144deg);}
+    60%{transform: rotate(216deg);}
+    80%{transform: rotate(288deg);}
+    100%{transform: rotate(360deg);}
+}
+#anim_1{
+    position: absolute;
+    animation-duration: 10s;
+    left: -100px;
+    top: 5500px;
+    height: 200px;
+    width: 100%;
+    animation-name: anim_1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anim_1{
+    0%{left: -200px;}
+    20%{left: 10px;}
+    40%{left: 50px;}
+    60%{left: 100px;}
+    80%{left: 100px;}
+    100%{left: 50px;}
+}*/
+#anim_2{
+    transform: scaleX(-1);
+}
+#anim_2:hover {
+    transform: scaleX(1);
+}
+#foot_img{ 
+    margin: 30px;
+    transform: scaleX(1);
+}
+.foot{
+    height: 300px;
+    width: 33%;
+    
+    text-align: center;
+    float: left;
+    position: relative;
+    background-color: black;
+    animation-name: footer;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/*.foot1{
+    margin-left: -600px;
+}
+.foot2{
+    margin-left: -350px;
+}
+.foot3{
+    margin-left: -50px;
+}
+
+@keyframes footer{
+    0%{left:-50%; }
+    25%{left: 20%;}
+    50%{left: 50%;}
+    75%{left: 65%;}
+    100%{left: 80%;}
+    50%{left: 500px;}
+    60%{left: 600px;}
+    70%{left: 700px;}
+    80%{left: 800px;}
+    90%{left: 900px;}
+}*/
+.lab label{
+    color: black;
+}
+#r1 #r2{
+    color: white;
+}
